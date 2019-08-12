@@ -1,7 +1,8 @@
 {
-  "name": "ideacrm",
   "vendor": "vtex",
+  "name": "ideacrm",
   "version": "0.0.1",
+  "title": "Idea CRM chat",
   "description": "Idea CRM pixel app",
   "builders": {
     "pixel": "0.x"
@@ -16,17 +17,17 @@
     "properties": {
       "idc": {
         "title": "Idea CRM ID",
-        "description": "Enter your Idea CRM ID",
+        "description": "Enter your IDC",
         "type": "string"
       },
       "pre_empresa": {
         "title": "Idea CRM Company",
-        "description": "Enter your Idea CRM Company",
+        "description": "Enter your Idea CRM pre_empresa",
         "type": "string"
       },
       "pre_depto": {
         "title": "Idea CRM Departament",
-        "description": "Enter your Idea CRM Departament",
+        "description": "Enter your Idea CRM pre_depto",
         "type": "string"
       },
       "floatingchat": {
